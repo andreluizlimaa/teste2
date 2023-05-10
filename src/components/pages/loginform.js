@@ -62,10 +62,10 @@ const LoginForm = () => {
       </form>
 
       <button className="register"> <Link to = "/registerform">Register</Link></button>
-      <p className="text">Or login using</p>
+      {/* <p className="text">Or login using</p> */}
       <div className="alt-login">
-        <div className="google"><FaGoogle /></div>
-        <div className="facebook"><FaFacebook /></div>
+        {/* <div className="google"><FaGoogle /></div>
+        <div className="facebook"><FaFacebook /></div> */}
       </div>
 
       <div className={popupStyle} >

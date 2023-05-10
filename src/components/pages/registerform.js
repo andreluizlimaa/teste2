@@ -60,16 +60,16 @@ const RegisterForm = () => {
         <button className="login-btn"  type="submit">Send</button>
       </form>
 
-      <button className="register"> <Link to = "/Troca de livro">Login</Link></button>
-      <p className="text">Or login using</p>
+      <button className="register"> <Link to = "/teste2">Login</Link></button>
+      {/* <p className="text">Or login using</p> */}
       <div className="alt-login">
-        <div className="google"><FaGoogle /></div>
-        <div className="facebook"><FaFacebook /></div>
+        {/* <div className="google"><FaGoogle /></div>
+        <div className="facebook"><FaFacebook /></div> */}
       </div>
 
       <div className={popupStyle} >
-        <h3>Login Failed</h3>
-        <p>Username or password incorrect</p>
+        {/* <h3>Login Failed</h3>
+        <p>Username or password incorrect</p> */}
       </div>
 
     </div>

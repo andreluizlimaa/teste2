@@ -7,14 +7,15 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route exact path="/Troca-de-livro" element={<LoginForm />} />
-          <Route exact path="/registerform" element={<RegisterForm />} />
-          <Route exact path="/propostas" element={<Propostas />} />
-        </Routes>
+          <Routes>
+            <Route exact path="/teste2" element={<LoginForm />} />
+            <Route exact path="/registerform" element={<RegisterForm />} />
+            <Route exact path="/propostas" element={<Propostas />} />
+          </Routes>
       </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+

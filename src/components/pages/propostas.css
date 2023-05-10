@@ -1,0 +1,49 @@
+
+.propostas_container{
+    /* background-color: #112536; */
+    
+}
+.container{
+    border: 4px solid black;
+    width: 50em;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0em 1em 1em 1em ;
+    background-color: white;
+
+    
+}
+body{
+    background-image: url(./livro.png);
+    /* background-repeat: no-repeat; */
+}
+
+.header{
+    background-color: #C05426;
+    width: 49.5em;
+    height: 7em;
+    display: flex;
+    margin-top: -1em;
+    margin-bottom: 2.5em;
+}
+.header h3{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 7.5em ;
+    font-size: 2.5em;
+
+}
+
+.proposta_exemplo{
+    border: 1px solid black;
+    height: 4em;
+    width: 48em;
+    margin-bottom: 2em;
+    margin-left: 0.78em;
+    background-color: #EFC070;
+    
+}
