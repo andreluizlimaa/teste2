@@ -60,7 +60,7 @@ const RegisterForm = () => {
         <button className="login-btn"  type="submit">Send</button>
       </form>
 
-      <button className="register"> <Link to = "/teste3">Login</Link></button>
+      <button className="register"> <Link to = "/Troca de livro">Login</Link></button>
       <p className="text">Or login using</p>
       <div className="alt-login">
         <div className="google"><FaGoogle /></div>
